@@ -1,8 +1,7 @@
 {
   "name": "trapme-business",
   "scripts": {
-    "build": "npx factor build",
-    "start": "npx factor serve"
+    "heroku-postbuild": "npx factor build"
   },
   "version": "1.0.0",
   "description": "",
